@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+
+:root {
+    --colorTextmain: floralwhite;
+
+    --colorPrimary: #14070e;
+    --colorSecondary: #5e0b3f;
+    --colorterti: #9a001d;
+    --colorSelected: rgb(212, 168, 85);
+
+    --fontMain: 'Delius', sans-serif;
+
+    --widtharticle: 250px;
+    --maxWidtharticle: 300px;
+}

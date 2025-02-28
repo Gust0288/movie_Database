@@ -4,38 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/variables.css">
     <script type="module" src="js/nowPlaying.js"></script>
     <title>API Consumption</title>
 </head>
 <body>
-    <header>
+    <header id="header-nav">
         <h1>The Movie Database</h1>
         <nav>
-            <a href="/">Now Playing</a>
-            <a href="/popular.html">Popular</a>
-            <a href="/top_rated.html">Top Rated</a>
-            <a href="/upcoming.html">Upcoming</a>
+            <ul>
+            <li><a href="" id="nowPlaying">Now Playing</a></li>
+            <li><a href="" id="popular">Popular</a></li>
+            <li><a href="" id="topRated">Top Rated</a></li>
+            <li><a href="" id="upcoming">Upcoming</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <section id="now-playing-list">
+        <section class="current-list">
         
         </section>
     </main>
     <footer>
-        <p>&copy; 2025 K&oslash;benhavns Erhvervsakademi Development - Gustav Bøgh</p>
+        <p>&copy; 2025 - Gustav Bøgh</p>
     </footer>
 </body>
-<template id="movie-cards">
+<template id="movie-cards-1">
     <article>
         <header>
             <h2></h2>
         </header>
-        <img src="" alt="">
-        <p class="desc"></p>
-        <p>Original title:  <span class="org-title"></span></p>
-        <p>Release date:  <span class="release"></span></p>
-
+        <div>
+            <div class="img-box">
+                <img src="" alt="">
+            </div>
+                <div>
+                    <p id="desc"></p>
+                    <p><b>Original title:</b>   <span id="org-title"></span></p>
+                    <p><b>Release date:</b>  <span id="release"></span></p>
+                </div>
+        </div>
+    </article>
+</template>
+<template id="movie-cards-2">
+  <article>
+        <header>
+            <h2></h2>
+        </header>
+        <div>
+            <div class="img-box">
+                <img src="" alt="">
+            </div>
+                <div>
+                    <p id="desc"></p>
+                    <p><b>Original title:</b>   <span id="org-title"></span></p>
+                    <p><b>Release date:</b>  <span id="release"></span></p>
+                </div>
+        </div>
+    </article>
+</template>
+<template id="movie-cards-3">
+  <article>
+        <header>
+            <h2></h2>
+        </header>
+        <div>
+            <div class="img-box">
+                <img src="" alt="">
+            </div>
+                <div>
+                    <p id="desc"></p>
+                    <p><b>Original title:</b>   <span id="org-title"></span></p>
+                    <p><b>Release date:</b>  <span id="release"></span></p>
+                </div>
+        </div>
+    </article>
+</template>
+<template id="movie-cards-4">
+   <article>
+        <header>
+            <h2></h2>
+        </header>
+        <div>
+            <div class="img-box">
+                <img src="" alt="">
+            </div>
+                <div>
+                    <p id="desc"></p>
+                    <p><b>Original title:</b>   <span id="org-title"></span></p>
+                    <p><b>Release date:</b>  <span id="release"></span></p>
+                </div>
+        </div>
     </article>
 </template>
 </html>
